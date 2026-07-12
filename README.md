@@ -214,7 +214,7 @@ GET
 URL
 
 ```
-https://vpn.example.com/update?key=123456abcdef&target=https://sh.example.com:#{port}
+https://vpn.example.com/update?key=123456abcdef&target=https://sh.example.com:#{port}&ruleName=#{ruleName}
 ```
 
 即可。
@@ -322,7 +322,7 @@ Lucky WebHook 支持：
 Example
 
 ```
-https://vpn.example.com/update?key=123456abcdef&target=https://sh.example.com:#{port}
+https://vpn.example.com/update?key=123456abcdef&target=https://sh.example.com:#{port}&ruleName=#{ruleName}
 ```
 
 ---
